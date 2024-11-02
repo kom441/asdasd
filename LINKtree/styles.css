@@ -1,0 +1,20 @@
+footer p{
+    font-size: 12px;
+    color: rgb(178, 71, 33);
+    margin-top:20px;
+}
+
+.small-icon {
+    width: 20px;
+    height: auto;
+    margin-right: 2px;
+    vertical-align: maiddle;
+}
+
+body, html {
+    margin: 0;
+    padding: 0;
+    font-family: Arial, sans-serif;
+    background: linear-gradient (180deg, #ff8000, #b60404);
+    height: 100vh;
+}
