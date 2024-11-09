@@ -1,9 +1,21 @@
-/* styles.css */
+footer p{
+    font-size: 24px;
+    color: rgb(2, 2, 2);
+    margin-top:20px;
+}
+
+.small-icon {
+    width: 90px;
+    height: auto;
+    margin-right: 2px;
+    vertical-align: maiddle;
+}
+
 body, html {
     margin: 0;
     padding: 0;
     font-family: Arial, sans-serif;
-    background: linear-gradient(180deg, #7857e6, #f098c4);
+    background: linear-gradient(180deg, #ff0000, #fffdfd);
     height: 100vh;
     display: flex;
     justify-content: center;
@@ -20,10 +32,9 @@ body, html {
 }
 
 .logo {
-    width: 80px;
+    width: 300px;
     margin-bottom: 0px;
 }
-
 .profile h1 {
     font-size: 18px;
     color: #555;
@@ -33,7 +44,7 @@ body, html {
 .links .link {
     display: block;
     text-decoration: none;
-    background-color: #ffffff;
+    background-color: #e45c5c;
     color: #333;
     padding: 15px 0;
     margin: 10px 0;
@@ -43,27 +54,14 @@ body, html {
 }
 
 .links .link:hover {
-    background-color: #f0f0f0;
+    background-color: #ffffff;
     box-shadow: 0 6px 8px rgba(0, 0, 0, 0.15);
 }
 
-footer p {
-    font-size: 12px;
-    color: #888;
-    margin-top: 20px;
-}
-
-.small-icon {
-    width: 20px; /* 너비를 20px로 설정 */
-    height: auto; /* 높이는 비율에 맞춰 자동으로 설정 */
-    margin-right: 2px; /* 텍스트와의 간격을 위해 오른쪽 여백 추가 */
-    vertical-align: middle; /* 텍스트와 이미지가 수평 정렬되도록 설정 */
-}
-/* 하단 오른쪽에 고정된 전화 걸기 버튼 */
-.call-button {
+.links .call-button {
     display: block;
     text-decoration: none;
-    background-color: #ffffff;
+    background-color: #e45c5c;
     color: #333;
     padding: 15px 0;
     margin: 10px 0;
@@ -72,7 +70,7 @@ footer p {
     transition: all 0.2s ease;
 }
 
-.call-button:hover {
-    background-color: #f0f0f0;
+.links .call-button:hover {
+    background-color: #fdfdfd;
     box-shadow: 0 6px 8px rgba(0, 0, 0, 0.15);
 }
